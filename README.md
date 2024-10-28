@@ -2,6 +2,8 @@
 
 ### Arrangement of the files
 
+```
+
 ├── app.py
 ├── azure-pipelines.yml
 ├── Boston_Housing_prediction.egg-info
@@ -30,6 +32,7 @@
 ├── setup.py
 └── sys
 
+```
 ### Steps
 - Run `make install` - excecute the instructions in the Makefile with the install section
 - Run `python3 app.py`- this excecutes the app in a local host.
