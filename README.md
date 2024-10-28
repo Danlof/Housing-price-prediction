@@ -1,4 +1,35 @@
 ## Predicting house price in boston and deploying a flask app on AWS SAM CLI
+
+### Arrangement of the files
+
+├── app.py
+├── azure-pipelines.yml
+├── Boston_Housing_prediction.egg-info
+│   ├── dependency_links.txt
+│   ├── PKG-INFO
+│   ├── requires.txt
+│   ├── SOURCES.txt
+│   └── top_level.txt
+├── datasets
+│   ├── housing.xls
+│   └── __init__.py
+├── Dockerfile
+├── __init__.py
+├── Makefile
+├── make_predict_azure_app.sh
+├── make_predict.sh
+├── models
+│   └── xgb_housing_model.joblib
+├── notebooks
+│   ├── __init__.py
+│   ├── predict_housing.ipynb
+│   └── README.md
+├── os
+├── README.md
+├── requirements.txt
+├── setup.py
+└── sys
+
 ### Steps
 - Run `make install` - excecute the instructions in the Makefile with the install section
 - Run `python3 app.py`- this excecutes the app in a local host.
