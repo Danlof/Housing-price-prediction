@@ -57,6 +57,13 @@
 - All this is running in port 5000.
 - use `python app.py` to run this script
 
+### Create ssh keys 
+- Open your azure, and look for the terminal and type `ssh-keygen -t rsa` , press enter all the way.
+- use `cat /file/path/.ssh/id_rsa.pub` ,this generates a code ,so that you may communicate with github.
+- Go to github settings and look for `ssh and GPG keys` add the ssh key and give it a name 
+- Got to the repository and look for clone with `SSH`.copy that link to azure terminal 
+- in azure terminal register the app service as `az webapp up -n housing-price-service`
+
 ### AWS SAM CLI 
 - Initialize `sam init`
 - Custom build it 
