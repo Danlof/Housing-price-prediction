@@ -1,4 +1,4 @@
-#!/media/danlof/dan_files3/data_science_codes/MLOPS/flask-ml-azure-serverless/azure/bin/python3
+#!/media/danlof/dan_files4/data_science_codes/MLOPS/flask-ml-serverless/.cloud/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

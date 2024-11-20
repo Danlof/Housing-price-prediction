@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/media/danlof/dan_files3/data_science_codes/MLOPS/flask-ml-azure-serverless/azure"
+setenv VIRTUAL_ENV "/media/danlof/dan_files4/data_science_codes/MLOPS/flask-ml-serverless/.cloud"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,8 +17,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(azure) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(azure) "
+    set prompt = "(.cloud) $prompt"
+    setenv VIRTUAL_ENV_PROMPT "(.cloud) "
 endif
 
 alias pydoc python -m pydoc
